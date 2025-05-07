@@ -6,7 +6,7 @@ pipeline {
     }
 
     triggers {
-        githubPush() // This listens for GitHub push events
+        githubPush() // This listens for GitHub push events no 20 change
     }
 
     stages {
