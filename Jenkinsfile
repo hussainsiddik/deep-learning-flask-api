@@ -18,7 +18,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git credentialsId: 'github_ssh', url: 'git@github.com:hussainsiddik/deep-learning-flask-api.git', branch: 'main'
+                git url: 'https://github.com/hussainsiddik/deep-learning-flask-api.git', branch: 'main'
             }
         }
 
