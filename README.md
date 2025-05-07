@@ -25,3 +25,4 @@ Go to `http://127.0.0.1:5000/` via chrome browser and upload image from `static`
 1. [DEPLOYING PYTORCH IN PYTHON VIA A REST API WITH FLASK](https://pytorch.org/tutorials/intermediate/flask_rest_api_tutorial.html)# trigger test
 # trigger test
 # trigger test
+# trigger test
