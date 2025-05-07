@@ -4,7 +4,7 @@ import label_image
 
 app = Flask(__name__)
 
-print("siddique edited this at 7th may")
+print("siddique edited this at 7th may for pull-push check")
 
 @app.route('/', methods = ['GET', 'POST'])
 def hello_world():
