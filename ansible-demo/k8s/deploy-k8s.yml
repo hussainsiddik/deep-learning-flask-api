@@ -1,0 +1,13 @@
+---
+- name: Deploy Flask app to Kubernetes
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Apply deployment
+      shell: kubectl apply -f deployment.yaml
+
+    - name: Apply service
+      shell: kubectl apply -f service.yaml
+
+    - name: Wait for pod to become Ready
+      shell: kubectl wait --for=condition=Ready pod -l app=flask-app --timeout=60s
